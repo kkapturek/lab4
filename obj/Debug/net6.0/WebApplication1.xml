@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.StudentsController.PostStudent(WebApplication1.Models.Student)">
+             <summary>
+             Wprowadź studenta
+             </summary>
+             <param name="student"></param>
+             <returns>A newly created Student</returns>
+             <remarks>
+             Sample request:
+            
+             POST /Student
+             {
+             "id": 1,
+             "name": "Anna",
+             "surnname": "Zablotni"
+             }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApplication1.Controllers.StudentsController.DeleteStudent(System.Int32)">
+            <summary>
+            Usuwanie Studentow z listy.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
